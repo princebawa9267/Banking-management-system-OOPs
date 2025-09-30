@@ -26,11 +26,11 @@ It allows a user to deposit money, withdraw money (with balance check), view cur
 
 ## 📂 Project Structure
 BankAccountSimulation/
-  ├── Main.java # Entry point with menu-driven simulation
-  ├── Account.java # Handles balance, deposits, withdrawals, and transaction history
-  ├── Transaction.java # Represents a transaction with amount, date, and type
-  ├── TransactionType.java # Enum for transaction types (DEPOSIT, WITHDRAW)
-  ├── InsufficientBalanceException.java # Custom exception for low balance
+  ├ Main.java # Entry point with menu-driven simulation
+  ├ Account.java # Handles balance, deposits, withdrawals, and transaction history
+  ├ Transaction.java # Represents a transaction with amount, date, and type
+  ├ TransactionType.java # Enum for transaction types (DEPOSIT, WITHDRAW)
+  ├ InsufficientBalanceException.java # Custom exception for low balance
 
 
 ---
@@ -92,6 +92,7 @@ $ 200.0 Withdrawen at Mon Sep 29 18:32:10 IST 2025
    ```bash
    javac Main.java Account.java Transaction.java TransactionType.java InsufficientBalanceException.java
    java Main
-```
+   ```
+
 
 
